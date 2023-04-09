@@ -1,0 +1,328 @@
+body
+{
+    background-color:#FAFAFA;
+}
+header
+{
+    background-color: #ffffff;
+    border-bottom: 1px solid #d8d8d8;
+    padding:10px;
+}
+.header-logo img
+{
+    width:120px;
+    margin-left:200px;
+}
+.login-page
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+}
+.banner-section img
+{
+    width:420px;
+    margin:10px;
+}
+.login-form
+{
+    background-color: #ffffff;
+    padding:40px;
+    margin:10px;
+    border:1px solid #d8d8d8;
+    width:380px;
+    text-align: center;
+}
+.login-form .logo-image 
+{
+    width:200px;
+    margin-bottom: 30px;
+}
+.login-form input
+{
+    background-color: #FAFAFA;
+    border-radius: 3px;
+}
+.login-form input::placeholder
+{
+    font-size:12px;
+}
+.login-form button
+{
+    border-radius: 4px;
+    color:#ffffff;
+    font-weight: 500;
+}
+.login-form button:hover
+{
+    color:#ffffff;
+}
+.login-form legend
+{
+    text-align: center;
+    padding:0px 20px;
+    font-size:13px;
+    color:#8e8e8e;
+    font-weight: 500;
+}
+.border
+{
+    border-left:none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+}
+.fb-login img
+{
+    width:25px;
+    margin-right: 3px;;
+}
+.fb-login a
+{
+    color:#385185;
+    text-decoration: none;
+    font-size:14px;
+    font-weight: 500;
+}
+.password a
+{
+    text-decoration: none;
+    color:#000000;
+    font-size:12px;
+}
+.sign-up
+{
+    background-color: #ffffff;
+    padding:20px;
+    margin:10px;
+    border:1px solid #d8d8d8;
+    width:380px;
+    text-align: center;
+}
+.login-page .sign-up p
+{
+    margin:0px;
+    font-size:14px;
+}
+.login-page .sign-up a
+{
+    text-decoration: none;
+    color:#0095f6;
+    font-weight: 500;
+}
+.bottom-row
+{
+    text-align: center;
+    padding:20px 50px;
+}
+.bottom-row p
+{
+    font-size:14px;
+}
+.bottom-row img
+{
+    width:130px;
+}
+.footer
+{
+    margin:30px 0px;
+}
+.footer ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.footer li
+{
+    margin-right: 20px;
+}
+.footer a
+{
+    color: #8e8e8e;
+    text-decoration: none;
+    font-size:12px;
+}
+.footer p
+{
+   color: #8e8e8e;
+   font-size:13px;
+   text-align: center; 
+}
+.footer .lang
+{
+    margin-right:20px;
+}
+.signup-page
+{
+    display: flex;
+    justify-content: center;
+}
+.signup-form
+{
+    background-color: #ffffff;
+    padding:40px;
+    margin:10px;
+    border:1px solid #d8d8d8;
+    width:380px;
+    text-align: center;
+}
+.signup-form img
+{
+    width:190px;
+}
+.signup-form .signup-description
+{
+    font-weight: 600;
+    color: #8e8e8e;
+    font-size:17px;
+}
+.signup-button
+{
+    background-color: #0095F6;
+    color:#ffffff;
+    border-radius:4px;
+    font-weight: 500;
+}
+.signup-button img
+{
+    width:25px;
+    margin-right:5px;
+}
+.signup-form input
+{
+    background-color: #FAFAFA;
+    border-radius: 4px;
+}
+.signup-form input::placeholder
+{
+    font-size:12px;
+}
+.signup-form legend
+{
+    text-align: center;
+    padding:0px 20px;
+    font-size:13px;
+    color:#8e8e8e;
+    font-weight: 500;
+}
+.signup-form p
+{
+    color: #8e8e8e;
+    font-size:13px;
+    text-align: center;
+}
+.signup-form a
+{
+    text-decoration: none;
+    font-weight: 500;
+    color:#8e8e8e;
+}
+.signup-form button
+{
+    border-radius: 4px;
+    color:#ffffff;
+    font-weight: 500;
+}
+.signup-form button:hover
+{
+    border-radius: 4px;
+    color:#ffffff;
+    font-weight: 500;
+}
+.signup-page .sign-up a
+{
+    text-decoration: none;
+    color:#0095f6;
+    font-weight: normal;
+}
+.signup-page .sign-up p
+{
+    margin:0px;
+    font-size:14px;
+}
+.password-page
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+.password_reset
+{
+    background-color: #ffffff;
+    padding:40px;
+    border:1px solid #d8d8d8;
+    width:380px;
+    text-align: center;
+}
+.password_reset span
+{
+    font-size:40px;
+    border:3px solid #5D5D5D;
+    color:#5D5D5D;
+    border-radius: 200px;
+    padding:20px 27px;
+}
+.password_reset h3
+{
+    font-size:17px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.password_reset p
+{
+    color: #8e8e8e;
+    font-size:14px;
+}
+.password_reset input
+{
+    background-color: #FAFAFA;
+    border-radius: 4px;
+}
+.password_reset input::placeholder
+{
+    font-size:14px;
+    font-weight: 500;
+    color: #c7c7c7;
+}
+.password_reset button
+{
+    font-weight: 500;
+}
+.password_reset a
+{
+    text-decoration: none;
+    color:#000000;
+    font-size:14px;
+    text-align: center;
+}
+.password_reset legend
+{
+    text-align: center;
+    padding:0px 20px;
+    font-size:13px;
+    color:#8e8e8e;
+    font-weight: 500;
+}
+.account a
+{
+    font-size:15px;
+    color:#000000;
+    font-weight: 500;
+}
+.back_login
+{
+    background-color:#FAFAFA;
+    border:2px solid #d8d8d8;
+    border-top:none;
+    padding:10px;
+    text-align: center;
+}
+.back_login a
+{
+    text-decoration: none;
+    color:#000000;
+    font-weight: 500;
+    font-size:14px;
+}
